@@ -1,0 +1,167 @@
+/* common settings */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-weight: 'メイリオ';
+  min-height: 100vh;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 15px 0;
+}
+
+nav {
+  background-color: black;
+}
+
+label,
+input,
+textarea {
+  display: block;
+}
+
+input[type="text"] {
+  width: 40%;
+}
+
+label + label {
+  margin-top: 15px;
+}
+
+footer {
+  margin-top: auto;
+  background-color: black;
+  padding: 5px 0;
+}
+
+.layout {
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* common */
+
+
+/* header */
+
+.menu {
+  background-color: black;
+  padding: 10px;
+}
+
+.menu-item {
+  color: white;
+  display: inline-block;
+  margin-right: 50px;
+}
+
+/* header */
+
+
+/* contents */
+
+.bulletin-board {
+  width: 70%;
+}
+
+.section-title {
+  border-bottom: 5px solid lightgray;
+  border-left: 5px solid black;
+  font-size: 30px;
+  margin-bottom: 15px;
+  padding-left: 5px;
+}
+
+.post-form {
+  background-color: rgb(238, 238, 238);
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgb(145, 145, 145);
+  padding: 35px 25px;
+}
+
+.form-heading {
+  border-left: 5px solid red;
+  margin-bottom: 15px;
+  padding-left: 5px;
+}
+
+.frame {
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  padding: 3px 5px;
+}
+
+.btn {
+  background-color: rgb(161, 161, 161);
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 3px 0 gray;
+  color: white;
+  margin-top: 15px;
+  padding: 5px;
+}
+
+.post {
+  background-color: rgb(238, 238, 238);
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgb(145, 145, 145);
+  margin-top: 15px;
+  padding: 20px 25px;
+}
+
+.article-title {
+  border-bottom: 1px solid lightgray;
+}
+
+.category-section {
+  width: 28%;
+}
+
+.side-title {
+  border-bottom: 1px dashed black;
+}
+
+.side-menu {
+  padding: 20px;
+}
+
+.side-menu-item {
+  margin-bottom: 15px;
+}
+
+/* contents */
+
+
+/* footer */
+
+.copy-right {
+  color: white;
+  text-align: center;
+}
+
+/* footer */
+
+
